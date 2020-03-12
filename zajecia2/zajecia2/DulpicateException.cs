@@ -14,11 +14,6 @@ namespace zajecia2
         {
         }
 
-        public DulpicateException(string message, string trescBledow) : base(message)
-        {
-            trescBledow+= message;
-        }
-
         public DulpicateException(string message, Exception innerException) : base(message, innerException)
         {
         }

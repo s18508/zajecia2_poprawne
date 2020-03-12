@@ -14,11 +14,6 @@ namespace zajecia2
         {
         }
 
-        public ArgumentNot9Exception(string message, string tekstBledu) : base(message)
-        {
-            tekstBledu += message;
-        }
-
         public ArgumentNot9Exception(string message, Exception innerException) : base(message, innerException)
         {
         }

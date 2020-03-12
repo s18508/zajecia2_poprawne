@@ -15,12 +15,6 @@ namespace zajecia2
         {
         }
 
-        public EmptyArgumentException(string message, string trescBledow) : base(message)
-        {
-            
-            trescBledow+=message;
-        }
-
         public EmptyArgumentException(string message, Exception innerException) : base(message, innerException)
         {
         }
