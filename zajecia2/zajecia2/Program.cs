@@ -6,7 +6,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using System.Text.Json;
-
+ 
 namespace zajecia2
 {
     class Program
